@@ -1,0 +1,23 @@
+{
+  "n_encounters_raw": 101766,
+  "n_patients_after_cleaning": 69987,
+  "prevalence": 0.09,
+  "logreg_roc_auc": 0.648,
+  "logreg_pr_auc": 0.172,
+  "xgb_roc_auc": 0.658,
+  "xgb_pr_auc": 0.187,
+  "xgb_trees": 304,
+  "top20_sensitivity": 0.388,
+  "top20_ppv": 0.174,
+  "top20_lift": 1.94,
+  "top_shap_features": {
+    "discharge_disposition_id": 0.29,
+    "diag_1_group": 0.14,
+    "number_inpatient": 0.105,
+    "medical_specialty": 0.093,
+    "age_num": 0.078,
+    "time_in_hospital": 0.076,
+    "diag_2_group": 0.068,
+    "diabetesMed": 0.059
+  }
+}
